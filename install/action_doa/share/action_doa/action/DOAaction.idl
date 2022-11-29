@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_doa/action/DOAaction.action
+// generated code does not contain a copyright notice
+
+
+module action_doa {
+  module action {
+    struct DOAaction_Goal {
+      int32 order;
+    };
+    struct DOAaction_Result {
+      sequence<int32> sequence;
+    };
+    struct DOAaction_Feedback {
+      sequence<int32> partial_sequence;
+    };
+  };
+};

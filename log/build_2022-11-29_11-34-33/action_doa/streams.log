@@ -1,0 +1,217 @@
+[0.097s] Invoking command in '/home/eragond/Documents/Robotica/DOAActionService/build/action_doa': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy /usr/bin/cmake /home/eragond/Documents/Robotica/DOAActionService/src/action_doa -DCMAKE_INSTALL_PREFIX=/home/eragond/Documents/Robotica/DOAActionService/install/action_doa
+[0.299s] -- The C compiler identification is GNU 9.4.0
+[0.498s] -- The CXX compiler identification is GNU 9.4.0
+[0.513s] -- Check for working C compiler: /usr/bin/cc
+[0.719s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.722s] -- Detecting C compiler ABI info
+[0.940s] -- Detecting C compiler ABI info - done
+[0.997s] -- Detecting C compile features
+[0.998s] -- Detecting C compile features - done
+[1.003s] -- Check for working CXX compiler: /usr/bin/c++
+[1.262s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.264s] -- Detecting CXX compiler ABI info
+[1.526s] -- Detecting CXX compiler ABI info - done
+[1.584s] -- Detecting CXX compile features
+[1.586s] -- Detecting CXX compile features - done
+[1.598s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.685s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.686s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.365s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.627s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.641s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.667s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.043s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.145s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.583s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.037s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[4.451s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.638s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.642s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.724s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.725s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.725s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.725s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.793s] -- Found PythonExtra: .so  
+[4.953s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.960s] -- Added test 'lint_cmake' to check CMake code style
+[4.963s] -- Added test 'xmllint' to check XML markup files
+[4.986s] -- Configuring done
+[5.141s] -- Generating done
+[5.150s] -- Build files have been written to: /home/eragond/Documents/Robotica/DOAActionService/build/action_doa
+[5.179s] Invoked command in '/home/eragond/Documents/Robotica/DOAActionService/build/action_doa' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy /usr/bin/cmake /home/eragond/Documents/Robotica/DOAActionService/src/action_doa -DCMAKE_INSTALL_PREFIX=/home/eragond/Documents/Robotica/DOAActionService/install/action_doa
+[5.189s] Invoking command in '/home/eragond/Documents/Robotica/DOAActionService/build/action_doa': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy /usr/bin/cmake --build /home/eragond/Documents/Robotica/DOAActionService/build/action_doa -- -j4 -l4
+[5.309s] [35m[1mScanning dependencies of target action_doa__cpp[0m
+[5.312s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.346s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.959s] [  6%] Built target action_doa__cpp
+[7.002s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.016s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.016s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.159s] [35m[1mScanning dependencies of target action_doa__rosidl_generator_c[0m
+[7.210s] [ 19%] [32mBuilding C object CMakeFiles/action_doa__rosidl_generator_c.dir/rosidl_generator_c/action_doa/action/detail/do_aaction__functions.c.o[0m
+[7.992s] [ 22%] [32m[1mLinking C shared library libaction_doa__rosidl_generator_c.so[0m
+[8.184s] [ 22%] Built target action_doa__rosidl_generator_c
+[8.359s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.968s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_cpp[0m
+[9.081s] [ 29%] [32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_doa/action/do_aaction__type_support.cpp.o[0m
+[9.269s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_introspection_cpp[0m
+[9.409s] [ 32%] [32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_doa/action/detail/do_aaction__type_support.cpp.o[0m
+[10.050s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_fastrtps_cpp[0m
+[10.193s] [ 35%] [32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_doa/action/detail/dds_fastrtps/do_aaction__type_support.cpp.o[0m
+[10.768s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_introspection_c[0m
+[10.829s] [ 38%] [32m[1mLinking CXX shared library libaction_doa__rosidl_typesupport_cpp.so[0m
+[10.869s] [ 41%] [32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_doa/action/detail/do_aaction__type_support.c.o[0m
+[11.044s] [ 41%] Built target action_doa__rosidl_typesupport_cpp
+[11.076s] [ 45%] [32m[1mLinking C shared library libaction_doa__rosidl_typesupport_introspection_c.so[0m
+[11.124s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.299s] [ 48%] Built target action_doa__rosidl_typesupport_introspection_c
+[11.402s] [ 51%] [32m[1mLinking CXX shared library libaction_doa__rosidl_typesupport_introspection_cpp.so[0m
+[11.722s] [ 51%] Built target action_doa__rosidl_typesupport_introspection_cpp
+[12.342s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_c[0m
+[12.383s] [ 54%] [32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_doa/action/do_aaction__type_support.cpp.o[0m
+[12.416s] [ 58%] [32m[1mLinking CXX shared library libaction_doa__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.545s] [ 61%] [32m[1mLinking CXX shared library libaction_doa__rosidl_typesupport_c.so[0m
+[12.674s] [ 61%] Built target action_doa__rosidl_typesupport_c
+[12.739s] [ 61%] Built target action_doa__rosidl_typesupport_fastrtps_cpp
+[12.769s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.977s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_fastrtps_c[0m
+[14.032s] [ 67%] [32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_doa/action/detail/do_aaction__type_support_c.cpp.o[0m
+[15.134s] [ 70%] [32m[1mLinking CXX shared library libaction_doa__rosidl_typesupport_fastrtps_c.so[0m
+[15.459s] [ 70%] Built target action_doa__rosidl_typesupport_fastrtps_c
+[15.488s] [35m[1mScanning dependencies of target action_doa[0m
+[15.517s] [ 70%] Built target action_doa
+[15.548s] [35m[1mScanning dependencies of target action_doa__py[0m
+[15.578s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[18.198s] [ 74%] Built target action_doa__py
+[18.229s] [35m[1mScanning dependencies of target action_doa__python[0m
+[18.286s] [ 77%] [32mBuilding C object CMakeFiles/action_doa__python.dir/rosidl_generator_py/action_doa/action/_do_aaction_s.c.o[0m
+[18.751s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/action_doa/libaction_doa__python.so[0m
+[18.891s] [ 80%] Built target action_doa__python
+[18.925s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_introspection_c__pyext[0m
+[18.926s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_c__pyext[0m
+[18.927s] [35m[1mScanning dependencies of target action_doa__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.989s] [ 83%] [32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_doa/_action_doa_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.002s] [ 87%] [32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_doa/_action_doa_s.ep.rosidl_typesupport_c.c.o[0m
+[19.030s] [ 90%] [32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_doa/_action_doa_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.421s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/action_doa/action_doa_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.438s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/action_doa/action_doa_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.495s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/action_doa/action_doa_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.566s] [100%] Built target action_doa__rosidl_typesupport_introspection_c__pyext
+[19.628s] [100%] Built target action_doa__rosidl_typesupport_c__pyext
+[19.757s] [100%] Built target action_doa__rosidl_typesupport_fastrtps_c__pyext
+[19.800s] Invoked command in '/home/eragond/Documents/Robotica/DOAActionService/build/action_doa' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy /usr/bin/cmake --build /home/eragond/Documents/Robotica/DOAActionService/build/action_doa -- -j4 -l4
+[19.981s] Invoking command in '/home/eragond/Documents/Robotica/DOAActionService/build/action_doa': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy /usr/bin/cmake --install /home/eragond/Documents/Robotica/DOAActionService/build/action_doa
+[20.005s] -- Install configuration: ""
+[20.005s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/ament_index/resource_index/rosidl_interfaces/action_doa
+[20.006s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa
+[20.007s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action
+[20.007s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail
+[20.007s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__functions.c
+[20.013s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__struct.h
+[20.013s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__functions.h
+[20.014s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__type_support.h
+[20.014s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/do_aaction.h
+[20.015s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg
+[20.015s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg/rosidl_generator_c__visibility_control.h
+[20.015s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/library_path.sh
+[20.016s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/library_path.dsv
+[20.016s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_generator_c.so
+[20.016s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_generator_c.so" to ""
+[20.017s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa
+[20.017s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action
+[20.017s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail
+[20.018s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_fastrtps_c.h
+[20.018s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg
+[20.019s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.019s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_c.so
+[20.019s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_c.so" to ""
+[20.020s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa
+[20.020s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action
+[20.020s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail
+[20.021s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/dds_fastrtps
+[20.021s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_fastrtps_cpp.hpp
+[20.021s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg
+[20.022s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.022s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_cpp.so
+[20.023s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.023s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa
+[20.024s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action
+[20.024s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail
+[20.024s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__type_support.c
+[20.025s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_introspection_c.h
+[20.025s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg
+[20.025s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.026s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_c.so
+[20.026s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_c.so" to ""
+[20.027s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_c.so
+[20.027s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_c.so" to ""
+[20.027s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa
+[20.027s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action
+[20.028s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail
+[20.028s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__struct.hpp
+[20.028s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__builder.hpp
+[20.029s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__traits.hpp
+[20.029s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/do_aaction.hpp
+[20.029s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa
+[20.030s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action
+[20.030s] -- Up-to-date: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail
+[20.030s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__type_support.cpp
+[20.031s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_introspection_cpp.hpp
+[20.031s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_cpp.so
+[20.031s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_cpp.so" to ""
+[20.031s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_cpp.so
+[20.032s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__rosidl_typesupport_cpp.so" to ""
+[20.032s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/pythonpath.sh
+[20.032s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/pythonpath.dsv
+[20.032s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/__init__.py
+[20.124s] Compiling '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/__init__.py'...
+[20.137s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action
+[20.138s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action/_do_aaction_s.c
+[20.138s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action/__init__.py
+[20.138s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action/_do_aaction.py
+[20.139s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[20.140s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.141s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[20.142s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.143s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[20.144s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.145s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__python.so
+[20.146s] -- Set runtime path of "/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/libaction_doa__python.so" to ""
+[20.147s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/action/DOAaction.idl
+[20.147s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/action/DOAaction.action
+[20.147s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/ament_index/resource_index/package_run_dependencies/action_doa
+[20.148s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/ament_index/resource_index/parent_prefix_path/action_doa
+[20.148s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/ament_prefix_path.sh
+[20.149s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/ament_prefix_path.dsv
+[20.150s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/path.sh
+[20.150s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/environment/path.dsv
+[20.150s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/local_setup.bash
+[20.151s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/local_setup.sh
+[20.152s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/local_setup.zsh
+[20.152s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/local_setup.dsv
+[20.152s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/package.dsv
+[20.153s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/ament_index/resource_index/packages/action_doa
+[20.155s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_generator_cExport.cmake
+[20.155s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_generator_cExport-noconfig.cmake
+[20.156s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cExport.cmake
+[20.156s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.157s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cExport.cmake
+[20.158s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cExport-noconfig.cmake
+[20.158s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_generator_cppExport.cmake
+[20.159s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cppExport.cmake
+[20.159s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.160s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cppExport.cmake
+[20.160s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cppExport-noconfig.cmake
+[20.161s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/rosidl_cmake-extras.cmake
+[20.161s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.162s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/ament_cmake_export_libraries-extras.cmake
+[20.162s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/ament_cmake_export_targets-extras.cmake
+[20.162s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.163s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.163s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.163s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doaConfig.cmake
+[20.164s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/cmake/action_doaConfig-version.cmake
+[20.164s] -- Installing: /home/eragond/Documents/Robotica/DOAActionService/install/action_doa/share/action_doa/package.xml
+[20.175s] Invoked command in '/home/eragond/Documents/Robotica/DOAActionService/build/action_doa' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy /usr/bin/cmake --install /home/eragond/Documents/Robotica/DOAActionService/build/action_doa
