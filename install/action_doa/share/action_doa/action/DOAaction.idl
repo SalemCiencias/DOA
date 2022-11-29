@@ -6,13 +6,13 @@
 module action_doa {
   module action {
     struct DOAaction_Goal {
-      int32 order;
+      int32 orden;
     };
     struct DOAaction_Result {
-      sequence<int32> sequence;
+      string resultado;
     };
     struct DOAaction_Feedback {
-      sequence<int32> partial_sequence;
+      string feedback;
     };
   };
 };

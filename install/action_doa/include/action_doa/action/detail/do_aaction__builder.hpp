@@ -20,15 +20,15 @@ namespace action
 namespace builder
 {
 
-class Init_DOAaction_Goal_order
+class Init_DOAaction_Goal_orden
 {
 public:
-  Init_DOAaction_Goal_order()
+  Init_DOAaction_Goal_orden()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::action_doa::action::DOAaction_Goal order(::action_doa::action::DOAaction_Goal::_order_type arg)
+  ::action_doa::action::DOAaction_Goal orden(::action_doa::action::DOAaction_Goal::_orden_type arg)
   {
-    msg_.order = std::move(arg);
+    msg_.orden = std::move(arg);
     return std::move(msg_);
   }
 
@@ -47,7 +47,7 @@ template<>
 inline
 auto build<::action_doa::action::DOAaction_Goal>()
 {
-  return action_doa::action::builder::Init_DOAaction_Goal_order();
+  return action_doa::action::builder::Init_DOAaction_Goal_orden();
 }
 
 }  // namespace action_doa
@@ -62,15 +62,15 @@ namespace action
 namespace builder
 {
 
-class Init_DOAaction_Result_sequence
+class Init_DOAaction_Result_resultado
 {
 public:
-  Init_DOAaction_Result_sequence()
+  Init_DOAaction_Result_resultado()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::action_doa::action::DOAaction_Result sequence(::action_doa::action::DOAaction_Result::_sequence_type arg)
+  ::action_doa::action::DOAaction_Result resultado(::action_doa::action::DOAaction_Result::_resultado_type arg)
   {
-    msg_.sequence = std::move(arg);
+    msg_.resultado = std::move(arg);
     return std::move(msg_);
   }
 
@@ -89,7 +89,7 @@ template<>
 inline
 auto build<::action_doa::action::DOAaction_Result>()
 {
-  return action_doa::action::builder::Init_DOAaction_Result_sequence();
+  return action_doa::action::builder::Init_DOAaction_Result_resultado();
 }
 
 }  // namespace action_doa
@@ -104,15 +104,15 @@ namespace action
 namespace builder
 {
 
-class Init_DOAaction_Feedback_partial_sequence
+class Init_DOAaction_Feedback_feedback
 {
 public:
-  Init_DOAaction_Feedback_partial_sequence()
+  Init_DOAaction_Feedback_feedback()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::action_doa::action::DOAaction_Feedback partial_sequence(::action_doa::action::DOAaction_Feedback::_partial_sequence_type arg)
+  ::action_doa::action::DOAaction_Feedback feedback(::action_doa::action::DOAaction_Feedback::_feedback_type arg)
   {
-    msg_.partial_sequence = std::move(arg);
+    msg_.feedback = std::move(arg);
     return std::move(msg_);
   }
 
@@ -131,7 +131,7 @@ template<>
 inline
 auto build<::action_doa::action::DOAaction_Feedback>()
 {
-  return action_doa::action::builder::Init_DOAaction_Feedback_partial_sequence();
+  return action_doa::action::builder::Init_DOAaction_Feedback_feedback();
 }
 
 }  // namespace action_doa

@@ -17,7 +17,7 @@ action_doa__action__DOAaction_Goal__init(action_doa__action__DOAaction_Goal * ms
   if (!msg) {
     return false;
   }
-  // order
+  // orden
   return true;
 }
 
@@ -27,7 +27,7 @@ action_doa__action__DOAaction_Goal__fini(action_doa__action__DOAaction_Goal * ms
   if (!msg) {
     return;
   }
-  // order
+  // orden
 }
 
 bool
@@ -36,8 +36,8 @@ action_doa__action__DOAaction_Goal__are_equal(const action_doa__action__DOAactio
   if (!lhs || !rhs) {
     return false;
   }
-  // order
-  if (lhs->order != rhs->order) {
+  // orden
+  if (lhs->orden != rhs->orden) {
     return false;
   }
   return true;
@@ -51,8 +51,8 @@ action_doa__action__DOAaction_Goal__copy(
   if (!input || !output) {
     return false;
   }
-  // order
-  output->order = input->order;
+  // orden
+  output->orden = input->orden;
   return true;
 }
 
@@ -232,8 +232,8 @@ action_doa__action__DOAaction_Goal__Sequence__copy(
 
 
 // Include directives for member types
-// Member `sequence`
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
+// Member `resultado`
+#include "rosidl_runtime_c/string_functions.h"
 
 bool
 action_doa__action__DOAaction_Result__init(action_doa__action__DOAaction_Result * msg)
@@ -241,8 +241,8 @@ action_doa__action__DOAaction_Result__init(action_doa__action__DOAaction_Result 
   if (!msg) {
     return false;
   }
-  // sequence
-  if (!rosidl_runtime_c__int32__Sequence__init(&msg->sequence, 0)) {
+  // resultado
+  if (!rosidl_runtime_c__String__init(&msg->resultado)) {
     action_doa__action__DOAaction_Result__fini(msg);
     return false;
   }
@@ -255,8 +255,8 @@ action_doa__action__DOAaction_Result__fini(action_doa__action__DOAaction_Result 
   if (!msg) {
     return;
   }
-  // sequence
-  rosidl_runtime_c__int32__Sequence__fini(&msg->sequence);
+  // resultado
+  rosidl_runtime_c__String__fini(&msg->resultado);
 }
 
 bool
@@ -265,9 +265,9 @@ action_doa__action__DOAaction_Result__are_equal(const action_doa__action__DOAact
   if (!lhs || !rhs) {
     return false;
   }
-  // sequence
-  if (!rosidl_runtime_c__int32__Sequence__are_equal(
-      &(lhs->sequence), &(rhs->sequence)))
+  // resultado
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->resultado), &(rhs->resultado)))
   {
     return false;
   }
@@ -282,9 +282,9 @@ action_doa__action__DOAaction_Result__copy(
   if (!input || !output) {
     return false;
   }
-  // sequence
-  if (!rosidl_runtime_c__int32__Sequence__copy(
-      &(input->sequence), &(output->sequence)))
+  // resultado
+  if (!rosidl_runtime_c__String__copy(
+      &(input->resultado), &(output->resultado)))
   {
     return false;
   }
@@ -467,9 +467,9 @@ action_doa__action__DOAaction_Result__Sequence__copy(
 
 
 // Include directives for member types
-// Member `partial_sequence`
+// Member `feedback`
 // already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+// #include "rosidl_runtime_c/string_functions.h"
 
 bool
 action_doa__action__DOAaction_Feedback__init(action_doa__action__DOAaction_Feedback * msg)
@@ -477,8 +477,8 @@ action_doa__action__DOAaction_Feedback__init(action_doa__action__DOAaction_Feedb
   if (!msg) {
     return false;
   }
-  // partial_sequence
-  if (!rosidl_runtime_c__int32__Sequence__init(&msg->partial_sequence, 0)) {
+  // feedback
+  if (!rosidl_runtime_c__String__init(&msg->feedback)) {
     action_doa__action__DOAaction_Feedback__fini(msg);
     return false;
   }
@@ -491,8 +491,8 @@ action_doa__action__DOAaction_Feedback__fini(action_doa__action__DOAaction_Feedb
   if (!msg) {
     return;
   }
-  // partial_sequence
-  rosidl_runtime_c__int32__Sequence__fini(&msg->partial_sequence);
+  // feedback
+  rosidl_runtime_c__String__fini(&msg->feedback);
 }
 
 bool
@@ -501,9 +501,9 @@ action_doa__action__DOAaction_Feedback__are_equal(const action_doa__action__DOAa
   if (!lhs || !rhs) {
     return false;
   }
-  // partial_sequence
-  if (!rosidl_runtime_c__int32__Sequence__are_equal(
-      &(lhs->partial_sequence), &(rhs->partial_sequence)))
+  // feedback
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->feedback), &(rhs->feedback)))
   {
     return false;
   }
@@ -518,9 +518,9 @@ action_doa__action__DOAaction_Feedback__copy(
   if (!input || !output) {
     return false;
   }
-  // partial_sequence
-  if (!rosidl_runtime_c__int32__Sequence__copy(
-      &(input->partial_sequence), &(output->partial_sequence)))
+  // feedback
+  if (!rosidl_runtime_c__String__copy(
+      &(input->feedback), &(output->feedback)))
   {
     return false;
   }

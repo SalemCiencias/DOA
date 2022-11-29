@@ -33,14 +33,14 @@ void DOAaction_Goal__rosidl_typesupport_introspection_c__DOAaction_Goal_fini_fun
 
 static rosidl_typesupport_introspection_c__MessageMember DOAaction_Goal__rosidl_typesupport_introspection_c__DOAaction_Goal_message_member_array[1] = {
   {
-    "order",  // name
+    "orden",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(action_doa__action__DOAaction_Goal, order),  // bytes offset in struct
+    offsetof(action_doa__action__DOAaction_Goal, orden),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -99,8 +99,8 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `sequence`
-#include "rosidl_runtime_c/primitives_sequence_functions.h"
+// Member `resultado`
+#include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -123,14 +123,14 @@ void DOAaction_Result__rosidl_typesupport_introspection_c__DOAaction_Result_fini
 
 static rosidl_typesupport_introspection_c__MessageMember DOAaction_Result__rosidl_typesupport_introspection_c__DOAaction_Result_message_member_array[1] = {
   {
-    "sequence",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    "resultado",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(action_doa__action__DOAaction_Result, sequence),  // bytes offset in struct
+    offsetof(action_doa__action__DOAaction_Result, resultado),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -189,9 +189,9 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 
 
 // Include directives for member types
-// Member `partial_sequence`
+// Member `feedback`
 // already included above
-// #include "rosidl_runtime_c/primitives_sequence_functions.h"
+// #include "rosidl_runtime_c/string_functions.h"
 
 #ifdef __cplusplus
 extern "C"
@@ -214,14 +214,14 @@ void DOAaction_Feedback__rosidl_typesupport_introspection_c__DOAaction_Feedback_
 
 static rosidl_typesupport_introspection_c__MessageMember DOAaction_Feedback__rosidl_typesupport_introspection_c__DOAaction_Feedback_message_member_array[1] = {
   {
-    "partial_sequence",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    "feedback",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
-    true,  // is array
+    false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(action_doa__action__DOAaction_Feedback, partial_sequence),  // bytes offset in struct
+    offsetof(action_doa__action__DOAaction_Feedback, feedback),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

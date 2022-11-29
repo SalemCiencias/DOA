@@ -37,7 +37,7 @@ struct DOAaction_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->order = 0l;
+      this->orden = 0l;
     }
   }
 
@@ -47,20 +47,20 @@ struct DOAaction_Goal_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->order = 0l;
+      this->orden = 0l;
     }
   }
 
   // field types and members
-  using _order_type =
+  using _orden_type =
     int32_t;
-  _order_type order;
+  _orden_type orden;
 
   // setters for named parameter idiom
-  Type & set__order(
+  Type & set__orden(
     const int32_t & _arg)
   {
-    this->order = _arg;
+    this->orden = _arg;
     return *this;
   }
 
@@ -106,7 +106,7 @@ struct DOAaction_Goal_
   // comparison operators
   bool operator==(const DOAaction_Goal_ & other) const
   {
-    if (this->order != other.order) {
+    if (this->orden != other.orden) {
       return false;
     }
     return true;
@@ -148,25 +148,33 @@ struct DOAaction_Result_
 
   explicit DOAaction_Result_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->resultado = "";
+    }
   }
 
   explicit DOAaction_Result_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : resultado(_alloc)
   {
-    (void)_init;
-    (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->resultado = "";
+    }
   }
 
   // field types and members
-  using _sequence_type =
-    std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other>;
-  _sequence_type sequence;
+  using _resultado_type =
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
+  _resultado_type resultado;
 
   // setters for named parameter idiom
-  Type & set__sequence(
-    const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+  Type & set__resultado(
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
-    this->sequence = _arg;
+    this->resultado = _arg;
     return *this;
   }
 
@@ -212,7 +220,7 @@ struct DOAaction_Result_
   // comparison operators
   bool operator==(const DOAaction_Result_ & other) const
   {
-    if (this->sequence != other.sequence) {
+    if (this->resultado != other.resultado) {
       return false;
     }
     return true;
@@ -254,25 +262,33 @@ struct DOAaction_Feedback_
 
   explicit DOAaction_Feedback_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->feedback = "";
+    }
   }
 
   explicit DOAaction_Feedback_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : feedback(_alloc)
   {
-    (void)_init;
-    (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->feedback = "";
+    }
   }
 
   // field types and members
-  using _partial_sequence_type =
-    std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other>;
-  _partial_sequence_type partial_sequence;
+  using _feedback_type =
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
+  _feedback_type feedback;
 
   // setters for named parameter idiom
-  Type & set__partial_sequence(
-    const std::vector<int32_t, typename ContainerAllocator::template rebind<int32_t>::other> & _arg)
+  Type & set__feedback(
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
-    this->partial_sequence = _arg;
+    this->feedback = _arg;
     return *this;
   }
 
@@ -318,7 +334,7 @@ struct DOAaction_Feedback_
   // comparison operators
   bool operator==(const DOAaction_Feedback_ & other) const
   {
-    if (this->partial_sequence != other.partial_sequence) {
+    if (this->feedback != other.feedback) {
       return false;
     }
     return true;

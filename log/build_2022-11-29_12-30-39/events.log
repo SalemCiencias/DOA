@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.000788] (-) JobUnselected: {'identifier': 'action_doa'}
+[0.000906] (doa) JobQueued: {'identifier': 'doa', 'dependencies': OrderedDict()}
+[0.001638] (doa) JobStarted: {'identifier': 'doa'}
+[0.099411] (-) TimerEvent: {}
+[0.200432] (-) TimerEvent: {}
+[0.301133] (-) TimerEvent: {}
+[0.401829] (-) TimerEvent: {}
+[0.502522] (-) TimerEvent: {}
+[0.603209] (-) TimerEvent: {}
+[0.703904] (-) TimerEvent: {}
+[0.806227] (-) TimerEvent: {}
+[0.908375] (-) TimerEvent: {}
+[1.009098] (-) TimerEvent: {}
+[1.109623] (-) TimerEvent: {}
+[1.210151] (-) TimerEvent: {}
+[1.310651] (-) TimerEvent: {}
+[1.411159] (-) TimerEvent: {}
+[1.511666] (-) TimerEvent: {}
+[1.612176] (-) TimerEvent: {}
+[1.712693] (-) TimerEvent: {}
+[1.813233] (-) TimerEvent: {}
+[1.913746] (-) TimerEvent: {}
+[2.014408] (-) TimerEvent: {}
+[2.115096] (-) TimerEvent: {}
+[2.118943] (doa) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/doa', 'build', '--build-base', '/home/eragond/Documents/Robotica/DOA/build/doa/build', 'install', '--record', '/home/eragond/Documents/Robotica/DOA/build/doa/install.log', '--install-scripts', '$base/lib/doa', '--single-version-externally-managed'], 'cwd': '/home/eragond/Documents/Robotica/DOA/src/doa', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eragond', 'LC_TIME': 'es_MX.UTF-8', 'SSH_AGENT_PID': '1930', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/eragond/Documents/Robotica/DOA/install/action_doa/lib:/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/eragond', 'OLDPWD': '/home/eragond/Documents/Robotica/DOAActionService', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/guake.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1746', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2399', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/eragond/Documents/Robotica/DOA/install:/home/eragond/Documents/Robotica/DOAActionService/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'eragond', 'JOURNAL_STREAM': '8:47914', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eragond', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/eragond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/DanLap:@/tmp/.ICE-unix/1969,unix/DanLap:/tmp/.ICE-unix/1969', 'INVOCATION_ID': 'e04a3701a6ca45aabe1f5572146948f6', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eragond/Documents/Robotica/DOA/install/doa:/home/eragond/Documents/Robotica/DOA/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eragond/Documents/Robotica/DOA/build/doa', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eragond/Documents/Robotica/DOA/build/doa/prefix_override:/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/DOA/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/eragond/Documents/Robotica/DOA/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/action_doa'}, 'shell': False}
+[2.215349] (-) TimerEvent: {}
+[2.316016] (-) TimerEvent: {}
+[2.416560] (-) TimerEvent: {}
+[2.517055] (-) TimerEvent: {}
+[2.617563] (-) TimerEvent: {}
+[2.718067] (-) TimerEvent: {}
+[2.818558] (-) TimerEvent: {}
+[2.820487] (doa) StdoutLine: {'line': b'running egg_info\n'}
+[2.822315] (doa) StdoutLine: {'line': b'writing ../../build/doa/doa.egg-info/PKG-INFO\n'}
+[2.822890] (doa) StdoutLine: {'line': b'writing dependency_links to ../../build/doa/doa.egg-info/dependency_links.txt\n'}
+[2.823293] (doa) StdoutLine: {'line': b'writing entry points to ../../build/doa/doa.egg-info/entry_points.txt\n'}
+[2.823739] (doa) StdoutLine: {'line': b'writing requirements to ../../build/doa/doa.egg-info/requires.txt\n'}
+[2.824047] (doa) StdoutLine: {'line': b'writing top-level names to ../../build/doa/doa.egg-info/top_level.txt\n'}
+[2.918708] (-) TimerEvent: {}
+[2.935924] (doa) StdoutLine: {'line': b"reading manifest file '../../build/doa/doa.egg-info/SOURCES.txt'\n"}
+[2.939712] (doa) StdoutLine: {'line': b"writing manifest file '../../build/doa/doa.egg-info/SOURCES.txt'\n"}
+[2.940191] (doa) StdoutLine: {'line': b'running build\n'}
+[2.940406] (doa) StdoutLine: {'line': b'running build_py\n'}
+[2.941000] (doa) StdoutLine: {'line': b'copying doa/doa_action_server.py -> /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa\n'}
+[2.941959] (doa) StdoutLine: {'line': b'running install\n'}
+[2.944683] (doa) StdoutLine: {'line': b'running install_lib\n'}
+[2.947935] (doa) StdoutLine: {'line': b'copying /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa/doa_action_server.py -> /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa\n'}
+[2.949632] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/doa_action_client.py to doa_action_client.cpython-38.pyc\n'}
+[2.955165] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/tuning.py to tuning.cpython-38.pyc\n'}
+[2.961713] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/doa_action_server.py to doa_action_server.cpython-38.pyc\n'}
+[2.963082] (doa) StdoutLine: {'line': b'running install_data\n'}
+[2.964836] (doa) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.968482] (doa) StdoutLine: {'line': b"removing '/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.969227] (doa) StdoutLine: {'line': b'Copying ../../build/doa/doa.egg-info to /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa-0.0.0-py3.8.egg-info\n'}
+[2.971509] (doa) StdoutLine: {'line': b'running install_scripts\n'}
+[3.017265] (doa) StdoutLine: {'line': b'Installing client script to /home/eragond/Documents/Robotica/DOA/install/doa/lib/doa\n'}
+[3.017858] (doa) StdoutLine: {'line': b'Installing server script to /home/eragond/Documents/Robotica/DOA/install/doa/lib/doa\n'}
+[3.018278] (doa) StdoutLine: {'line': b"writing list of installed files to '/home/eragond/Documents/Robotica/DOA/build/doa/install.log'\n"}
+[3.018830] (-) TimerEvent: {}
+[3.085760] (doa) CommandEnded: {'returncode': 0}
+[3.122528] (-) TimerEvent: {}
+[3.134032] (doa) JobEnded: {'identifier': 'doa', 'rc': 0}
+[3.135982] (-) EventReactorShutdown: {}

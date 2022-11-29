@@ -1,0 +1,5 @@
+  File "/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/doa_action_server.py", line 42
+    while(!encontrado):
+          ^
+SyntaxError: invalid syntax
+

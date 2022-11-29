@@ -1,0 +1,24 @@
+[2.185s] Invoking command in '/home/eragond/Documents/Robotica/DOA/src/doa': PYTHONPATH=/home/eragond/Documents/Robotica/DOA/build/doa/prefix_override:/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/doa build --build-base /home/eragond/Documents/Robotica/DOA/build/doa/build install --record /home/eragond/Documents/Robotica/DOA/build/doa/install.log --install-scripts $base/lib/doa --single-version-externally-managed
+[2.953s] running egg_info
+[2.955s] writing ../../build/doa/doa.egg-info/PKG-INFO
+[2.955s] writing dependency_links to ../../build/doa/doa.egg-info/dependency_links.txt
+[2.956s] writing entry points to ../../build/doa/doa.egg-info/entry_points.txt
+[2.956s] writing requirements to ../../build/doa/doa.egg-info/requires.txt
+[2.957s] writing top-level names to ../../build/doa/doa.egg-info/top_level.txt
+[3.086s] reading manifest file '../../build/doa/doa.egg-info/SOURCES.txt'
+[3.088s] writing manifest file '../../build/doa/doa.egg-info/SOURCES.txt'
+[3.089s] running build
+[3.089s] running build_py
+[3.090s] running install
+[3.092s] running install_lib
+[3.097s] byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/doa_action_client.py to doa_action_client.cpython-38.pyc
+[3.106s] byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/tuning.py to tuning.cpython-38.pyc
+[3.111s] running install_data
+[3.114s] running install_egg_info
+[3.118s] removing '/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa-0.0.0-py3.8.egg-info' (and everything under it)
+[3.119s] Copying ../../build/doa/doa.egg-info to /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa-0.0.0-py3.8.egg-info
+[3.122s] running install_scripts
+[3.179s] Installing client script to /home/eragond/Documents/Robotica/DOA/install/doa/lib/doa
+[3.179s] Installing server script to /home/eragond/Documents/Robotica/DOA/install/doa/lib/doa
+[3.180s] writing list of installed files to '/home/eragond/Documents/Robotica/DOA/build/doa/install.log'
+[3.255s] Invoked command in '/home/eragond/Documents/Robotica/DOA/src/doa' returned '0': PYTHONPATH=/home/eragond/Documents/Robotica/DOA/build/doa/prefix_override:/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/doa build --build-base /home/eragond/Documents/Robotica/DOA/build/doa/build install --record /home/eragond/Documents/Robotica/DOA/build/doa/install.log --install-scripts $base/lib/doa --single-version-externally-managed

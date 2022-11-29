@@ -1,6 +1,6 @@
-int32 order
+int32 orden
 ---
-int32[] sequence
+string resultado
 ---
-int32[] partial_sequence
+string feedback
 

@@ -1,0 +1,441 @@
+[0.000000] (-) TimerEvent: {}
+[0.003225] (action_doa) JobQueued: {'identifier': 'action_doa', 'dependencies': OrderedDict()}
+[0.003453] (doa) JobQueued: {'identifier': 'doa', 'dependencies': OrderedDict()}
+[0.003561] (action_doa) JobStarted: {'identifier': 'action_doa'}
+[0.034477] (doa) JobStarted: {'identifier': 'doa'}
+[0.076582] (action_doa) JobProgress: {'identifier': 'action_doa', 'progress': 'cmake'}
+[0.077338] (action_doa) Command: {'cmd': ['/usr/bin/cmake', '/home/eragond/Documents/Robotica/DOA/src/action_doa', '-DCMAKE_INSTALL_PREFIX=/home/eragond/Documents/Robotica/DOA/install/action_doa'], 'cwd': '/home/eragond/Documents/Robotica/DOA/build/action_doa', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eragond'), ('LC_TIME', 'es_MX.UTF-8'), ('SSH_AGENT_PID', '1930'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/eragond'), ('OLDPWD', '/home/eragond/Documents/Robotica/DOAActionService'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/guake.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2399'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'eragond'), ('JOURNAL_STREAM', '8:47914'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eragond'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/eragond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanLap:@/tmp/.ICE-unix/1969,unix/DanLap:/tmp/.ICE-unix/1969'), ('INVOCATION_ID', 'e04a3701a6ca45aabe1f5572146948f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eragond/Documents/Robotica/DOA/build/action_doa'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/DOA/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy')]), 'shell': False}
+[0.100449] (-) TimerEvent: {}
+[0.202440] (-) TimerEvent: {}
+[0.259656] (action_doa) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.302589] (-) TimerEvent: {}
+[0.403292] (-) TimerEvent: {}
+[0.431901] (action_doa) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.445254] (action_doa) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.503488] (-) TimerEvent: {}
+[0.604166] (-) TimerEvent: {}
+[0.643342] (action_doa) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.645581] (action_doa) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.704298] (-) TimerEvent: {}
+[0.805051] (-) TimerEvent: {}
+[0.838640] (action_doa) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.874808] (action_doa) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.882277] (action_doa) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.887318] (action_doa) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.905572] (-) TimerEvent: {}
+[1.012308] (-) TimerEvent: {}
+[1.104424] (action_doa) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.106941] (action_doa) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.112407] (-) TimerEvent: {}
+[1.213083] (-) TimerEvent: {}
+[1.313612] (-) TimerEvent: {}
+[1.324390] (action_doa) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.363493] (action_doa) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.364892] (action_doa) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.370189] (action_doa) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.413736] (-) TimerEvent: {}
+[1.436142] (action_doa) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.436689] (action_doa) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.513884] (-) TimerEvent: {}
+[1.614425] (-) TimerEvent: {}
+[1.715060] (-) TimerEvent: {}
+[1.815602] (-) TimerEvent: {}
+[1.916184] (-) TimerEvent: {}
+[2.016792] (-) TimerEvent: {}
+[2.082468] (action_doa) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.116954] (-) TimerEvent: {}
+[2.194924] (doa) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/doa', 'build', '--build-base', '/home/eragond/Documents/Robotica/DOA/build/doa/build', 'install', '--record', '/home/eragond/Documents/Robotica/DOA/build/doa/install.log', '--install-scripts', '$base/lib/doa', '--single-version-externally-managed'], 'cwd': '/home/eragond/Documents/Robotica/DOA/src/doa', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eragond', 'LC_TIME': 'es_MX.UTF-8', 'SSH_AGENT_PID': '1930', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/eragond', 'OLDPWD': '/home/eragond/Documents/Robotica/DOAActionService', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/guake.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_MX.UTF-8', 'MANAGERPID': '1746', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2399', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/eragond/Documents/Robotica/DOAActionService/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'eragond', 'JOURNAL_STREAM': '8:47914', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eragond', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/eragond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/DanLap:@/tmp/.ICE-unix/1969,unix/DanLap:/tmp/.ICE-unix/1969', 'INVOCATION_ID': 'e04a3701a6ca45aabe1f5572146948f6', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_MX.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_MX.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_MX.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_MX.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_MX.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eragond/Documents/Robotica/DOA/build/doa', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eragond/Documents/Robotica/DOA/build/doa/prefix_override:/home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/DOA/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_MX.UTF-8', 'LC_PAPER': 'es_MX.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa'}, 'shell': False}
+[2.217143] (-) TimerEvent: {}
+[2.280190] (action_doa) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[2.289531] (action_doa) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.306282] (action_doa) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.317258] (-) TimerEvent: {}
+[2.417935] (-) TimerEvent: {}
+[2.518451] (-) TimerEvent: {}
+[2.605586] (action_doa) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.618537] (-) TimerEvent: {}
+[2.697897] (action_doa) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.718667] (-) TimerEvent: {}
+[2.819501] (-) TimerEvent: {}
+[2.913629] (doa) StdoutLine: {'line': b'running egg_info\n'}
+[2.914905] (doa) StdoutLine: {'line': b'creating ../../build/doa/doa.egg-info\n'}
+[2.915655] (doa) StdoutLine: {'line': b'writing ../../build/doa/doa.egg-info/PKG-INFO\n'}
+[2.916280] (doa) StdoutLine: {'line': b'writing dependency_links to ../../build/doa/doa.egg-info/dependency_links.txt\n'}
+[2.916686] (doa) StdoutLine: {'line': b'writing entry points to ../../build/doa/doa.egg-info/entry_points.txt\n'}
+[2.917127] (doa) StdoutLine: {'line': b'writing requirements to ../../build/doa/doa.egg-info/requires.txt\n'}
+[2.917400] (doa) StdoutLine: {'line': b'writing top-level names to ../../build/doa/doa.egg-info/top_level.txt\n'}
+[2.919589] (-) TimerEvent: {}
+[2.920781] (doa) StdoutLine: {'line': b"writing manifest file '../../build/doa/doa.egg-info/SOURCES.txt'\n"}
+[2.935015] (action_doa) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.019746] (-) TimerEvent: {}
+[3.028246] (doa) StdoutLine: {'line': b"reading manifest file '../../build/doa/doa.egg-info/SOURCES.txt'\n"}
+[3.030221] (doa) StdoutLine: {'line': b"writing manifest file '../../build/doa/doa.egg-info/SOURCES.txt'\n"}
+[3.032292] (doa) StdoutLine: {'line': b'running build\n'}
+[3.032746] (doa) StdoutLine: {'line': b'running build_py\n'}
+[3.033022] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/build/doa/build\n'}
+[3.033316] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/build/doa/build/lib\n'}
+[3.033590] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa\n'}
+[3.033872] (doa) StdoutLine: {'line': b'copying doa/doa_action_client.py -> /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa\n'}
+[3.034161] (doa) StdoutLine: {'line': b'copying doa/__init__.py -> /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa\n'}
+[3.034435] (doa) StdoutLine: {'line': b'copying doa/tuning.py -> /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa\n'}
+[3.034805] (doa) StdoutLine: {'line': b'copying doa/doa_action_server.py -> /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa\n'}
+[3.035063] (doa) StdoutLine: {'line': b'running install\n'}
+[3.035633] (doa) StdoutLine: {'line': b'running install_lib\n'}
+[3.038394] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa\n'}
+[3.038916] (doa) StdoutLine: {'line': b'copying /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa/doa_action_client.py -> /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa\n'}
+[3.039347] (doa) StdoutLine: {'line': b'copying /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa/__init__.py -> /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa\n'}
+[3.039800] (doa) StdoutLine: {'line': b'copying /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa/tuning.py -> /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa\n'}
+[3.040083] (doa) StdoutLine: {'line': b'copying /home/eragond/Documents/Robotica/DOA/build/doa/build/lib/doa/doa_action_server.py -> /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa\n'}
+[3.040997] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/doa_action_client.py to doa_action_client.cpython-38.pyc\n'}
+[3.045986] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/__init__.py to __init__.cpython-38.pyc\n'}
+[3.046508] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/tuning.py to tuning.cpython-38.pyc\n'}
+[3.053296] (doa) StdoutLine: {'line': b'byte-compiling /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa/doa_action_server.py to doa_action_server.cpython-38.pyc\n'}
+[3.054617] (doa) StdoutLine: {'line': b'running install_data\n'}
+[3.056320] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/install/doa/share/ament_index\n'}
+[3.056920] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/install/doa/share/ament_index/resource_index\n'}
+[3.057258] (doa) StdoutLine: {'line': b'creating /home/eragond/Documents/Robotica/DOA/install/doa/share/ament_index/resource_index/packages\n'}
+[3.057535] (doa) StdoutLine: {'line': b'copying resource/doa -> /home/eragond/Documents/Robotica/DOA/install/doa/share/ament_index/resource_index/packages\n'}
+[3.057973] (doa) StdoutLine: {'line': b'copying package.xml -> /home/eragond/Documents/Robotica/DOA/install/doa/share/doa\n'}
+[3.058250] (doa) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.061580] (doa) StdoutLine: {'line': b'Copying ../../build/doa/doa.egg-info to /home/eragond/Documents/Robotica/DOA/install/doa/lib/python3.8/site-packages/doa-0.0.0-py3.8.egg-info\n'}
+[3.063899] (doa) StdoutLine: {'line': b'running install_scripts\n'}
+[3.076072] (action_doa) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.110150] (doa) StdoutLine: {'line': b'Installing client script to /home/eragond/Documents/Robotica/DOA/install/doa/lib/doa\n'}
+[3.110664] (doa) StdoutLine: {'line': b'Installing server script to /home/eragond/Documents/Robotica/DOA/install/doa/lib/doa\n'}
+[3.111402] (doa) StdoutLine: {'line': b"writing list of installed files to '/home/eragond/Documents/Robotica/DOA/build/doa/install.log'\n"}
+[3.119886] (-) TimerEvent: {}
+[3.177116] (doa) CommandEnded: {'returncode': 0}
+[3.220055] (-) TimerEvent: {}
+[3.223036] (doa) JobEnded: {'identifier': 'doa', 'rc': 0}
+[3.320352] (-) TimerEvent: {}
+[3.421047] (-) TimerEvent: {}
+[3.492748] (action_doa) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.521213] (-) TimerEvent: {}
+[3.621909] (-) TimerEvent: {}
+[3.722602] (-) TimerEvent: {}
+[3.823264] (-) TimerEvent: {}
+[3.871751] (action_doa) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.923409] (-) TimerEvent: {}
+[3.948158] (action_doa) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.023628] (-) TimerEvent: {}
+[4.025926] (action_doa) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.030093] (action_doa) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.111878] (action_doa) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.112422] (action_doa) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.112722] (action_doa) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.112993] (action_doa) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.123930] (-) TimerEvent: {}
+[4.177770] (action_doa) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.224192] (-) TimerEvent: {}
+[4.324844] (-) TimerEvent: {}
+[4.340914] (action_doa) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.346303] (action_doa) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.349527] (action_doa) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.369974] (action_doa) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.424999] (-) TimerEvent: {}
+[4.507460] (action_doa) StdoutLine: {'line': b'-- Generating done\n'}
+[4.516464] (action_doa) StdoutLine: {'line': b'-- Build files have been written to: /home/eragond/Documents/Robotica/DOA/build/action_doa\n'}
+[4.525152] (-) TimerEvent: {}
+[4.540952] (action_doa) CommandEnded: {'returncode': 0}
+[4.542663] (action_doa) JobProgress: {'identifier': 'action_doa', 'progress': 'build'}
+[4.545097] (action_doa) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eragond/Documents/Robotica/DOA/build/action_doa', '--', '-j4', '-l4'], 'cwd': '/home/eragond/Documents/Robotica/DOA/build/action_doa', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eragond'), ('LC_TIME', 'es_MX.UTF-8'), ('SSH_AGENT_PID', '1930'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/eragond'), ('OLDPWD', '/home/eragond/Documents/Robotica/DOAActionService'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/guake.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2399'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'eragond'), ('JOURNAL_STREAM', '8:47914'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eragond'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/eragond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanLap:@/tmp/.ICE-unix/1969,unix/DanLap:/tmp/.ICE-unix/1969'), ('INVOCATION_ID', 'e04a3701a6ca45aabe1f5572146948f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eragond/Documents/Robotica/DOA/build/action_doa'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/DOA/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy')]), 'shell': False}
+[4.625488] (-) TimerEvent: {}
+[4.676764] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__cpp\x1b[0m\n'}
+[4.677231] (action_doa) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.706648] (action_doa) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.725587] (-) TimerEvent: {}
+[4.826128] (-) TimerEvent: {}
+[4.926657] (-) TimerEvent: {}
+[5.027311] (-) TimerEvent: {}
+[5.127858] (-) TimerEvent: {}
+[5.228396] (-) TimerEvent: {}
+[5.328949] (-) TimerEvent: {}
+[5.429727] (-) TimerEvent: {}
+[5.530235] (-) TimerEvent: {}
+[5.630749] (-) TimerEvent: {}
+[5.731228] (-) TimerEvent: {}
+[5.831715] (-) TimerEvent: {}
+[5.932195] (-) TimerEvent: {}
+[5.939526] (action_doa) StdoutLine: {'line': b'[  6%] Built target action_doa__cpp\n'}
+[5.974451] (action_doa) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.977708] (action_doa) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.978270] (action_doa) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.032349] (-) TimerEvent: {}
+[6.132920] (-) TimerEvent: {}
+[6.134768] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_generator_c\x1b[0m\n'}
+[6.185209] (action_doa) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/action_doa__rosidl_generator_c.dir/rosidl_generator_c/action_doa/action/detail/do_aaction__functions.c.o\x1b[0m\n'}
+[6.233062] (-) TimerEvent: {}
+[6.333602] (-) TimerEvent: {}
+[6.434140] (-) TimerEvent: {}
+[6.534670] (-) TimerEvent: {}
+[6.635217] (-) TimerEvent: {}
+[6.653795] (action_doa) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaction_doa__rosidl_generator_c.so\x1b[0m\n'}
+[6.735368] (-) TimerEvent: {}
+[6.781010] (action_doa) StdoutLine: {'line': b'[ 22%] Built target action_doa__rosidl_generator_c\n'}
+[6.814631] (action_doa) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.835527] (-) TimerEvent: {}
+[6.936069] (-) TimerEvent: {}
+[7.036642] (-) TimerEvent: {}
+[7.051599] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_cpp\x1b[0m\n'}
+[7.099632] (action_doa) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/action_doa/action/do_aaction__type_support.cpp.o\x1b[0m\n'}
+[7.136778] (-) TimerEvent: {}
+[7.237627] (-) TimerEvent: {}
+[7.338139] (-) TimerEvent: {}
+[7.344319] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.394108] (action_doa) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/action_doa/action/detail/do_aaction__type_support.cpp.o\x1b[0m\n'}
+[7.438305] (-) TimerEvent: {}
+[7.539172] (-) TimerEvent: {}
+[7.580721] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.639322] (-) TimerEvent: {}
+[7.657970] (action_doa) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/action_doa/action/detail/dds_fastrtps/do_aaction__type_support.cpp.o\x1b[0m\n'}
+[7.739473] (-) TimerEvent: {}
+[7.840337] (-) TimerEvent: {}
+[7.941207] (-) TimerEvent: {}
+[8.041813] (-) TimerEvent: {}
+[8.142526] (-) TimerEvent: {}
+[8.206086] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[8.242714] (-) TimerEvent: {}
+[8.243568] (action_doa) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libaction_doa__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.254952] (action_doa) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_doa/action/detail/do_aaction__type_support.c.o\x1b[0m\n'}
+[8.342900] (-) TimerEvent: {}
+[8.393217] (action_doa) StdoutLine: {'line': b'[ 41%] Built target action_doa__rosidl_typesupport_cpp\n'}
+[8.421804] (action_doa) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libaction_doa__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.429107] (action_doa) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.443079] (-) TimerEvent: {}
+[8.537403] (action_doa) StdoutLine: {'line': b'[ 48%] Built target action_doa__rosidl_typesupport_introspection_c\n'}
+[8.543254] (-) TimerEvent: {}
+[8.644165] (-) TimerEvent: {}
+[8.723150] (action_doa) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libaction_doa__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.744338] (-) TimerEvent: {}
+[8.845269] (-) TimerEvent: {}
+[8.946236] (-) TimerEvent: {}
+[8.970513] (action_doa) StdoutLine: {'line': b'[ 51%] Built target action_doa__rosidl_typesupport_introspection_cpp\n'}
+[9.046538] (-) TimerEvent: {}
+[9.147290] (-) TimerEvent: {}
+[9.248040] (-) TimerEvent: {}
+[9.348647] (-) TimerEvent: {}
+[9.449336] (-) TimerEvent: {}
+[9.530633] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_c\x1b[0m\n'}
+[9.535492] (action_doa) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libaction_doa__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.549504] (-) TimerEvent: {}
+[9.567860] (action_doa) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_c.dir/rosidl_typesupport_c/action_doa/action/do_aaction__type_support.cpp.o\x1b[0m\n'}
+[9.649676] (-) TimerEvent: {}
+[9.704949] (action_doa) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libaction_doa__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.749857] (-) TimerEvent: {}
+[9.822744] (action_doa) StdoutLine: {'line': b'[ 61%] Built target action_doa__rosidl_typesupport_c\n'}
+[9.824280] (action_doa) StdoutLine: {'line': b'[ 61%] Built target action_doa__rosidl_typesupport_fastrtps_cpp\n'}
+[9.850017] (-) TimerEvent: {}
+[9.856813] (action_doa) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.950162] (-) TimerEvent: {}
+[10.050670] (-) TimerEvent: {}
+[10.151147] (-) TimerEvent: {}
+[10.251671] (-) TimerEvent: {}
+[10.352186] (-) TimerEvent: {}
+[10.452712] (-) TimerEvent: {}
+[10.553200] (-) TimerEvent: {}
+[10.653676] (-) TimerEvent: {}
+[10.754161] (-) TimerEvent: {}
+[10.854656] (-) TimerEvent: {}
+[10.955226] (-) TimerEvent: {}
+[11.020490] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[11.055408] (-) TimerEvent: {}
+[11.075920] (action_doa) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/action_doa__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/action_doa/action/detail/do_aaction__type_support_c.cpp.o\x1b[0m\n'}
+[11.155691] (-) TimerEvent: {}
+[11.256392] (-) TimerEvent: {}
+[11.357183] (-) TimerEvent: {}
+[11.457882] (-) TimerEvent: {}
+[11.558608] (-) TimerEvent: {}
+[11.659345] (-) TimerEvent: {}
+[11.760036] (-) TimerEvent: {}
+[11.860705] (-) TimerEvent: {}
+[11.961409] (-) TimerEvent: {}
+[12.062105] (-) TimerEvent: {}
+[12.148611] (action_doa) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libaction_doa__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.162397] (-) TimerEvent: {}
+[12.263137] (-) TimerEvent: {}
+[12.363912] (-) TimerEvent: {}
+[12.455210] (action_doa) StdoutLine: {'line': b'[ 70%] Built target action_doa__rosidl_typesupport_fastrtps_c\n'}
+[12.464163] (-) TimerEvent: {}
+[12.485329] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa\x1b[0m\n'}
+[12.516079] (action_doa) StdoutLine: {'line': b'[ 70%] Built target action_doa\n'}
+[12.546288] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__py\x1b[0m\n'}
+[12.564425] (-) TimerEvent: {}
+[12.578867] (action_doa) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.664690] (-) TimerEvent: {}
+[12.765398] (-) TimerEvent: {}
+[12.866117] (-) TimerEvent: {}
+[12.966822] (-) TimerEvent: {}
+[13.067509] (-) TimerEvent: {}
+[13.168187] (-) TimerEvent: {}
+[13.268912] (-) TimerEvent: {}
+[13.369686] (-) TimerEvent: {}
+[13.470378] (-) TimerEvent: {}
+[13.571099] (-) TimerEvent: {}
+[13.671888] (-) TimerEvent: {}
+[13.772653] (-) TimerEvent: {}
+[13.873420] (-) TimerEvent: {}
+[13.974142] (-) TimerEvent: {}
+[14.074712] (-) TimerEvent: {}
+[14.175208] (-) TimerEvent: {}
+[14.275684] (-) TimerEvent: {}
+[14.376224] (-) TimerEvent: {}
+[14.477031] (-) TimerEvent: {}
+[14.577738] (-) TimerEvent: {}
+[14.678447] (-) TimerEvent: {}
+[14.779155] (-) TimerEvent: {}
+[14.879873] (-) TimerEvent: {}
+[14.980610] (-) TimerEvent: {}
+[15.081316] (-) TimerEvent: {}
+[15.087993] (action_doa) StdoutLine: {'line': b'[ 74%] Built target action_doa__py\n'}
+[15.120310] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__python\x1b[0m\n'}
+[15.176434] (action_doa) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/action_doa__python.dir/rosidl_generator_py/action_doa/action/_do_aaction_s.c.o\x1b[0m\n'}
+[15.181572] (-) TimerEvent: {}
+[15.282306] (-) TimerEvent: {}
+[15.383060] (-) TimerEvent: {}
+[15.483778] (-) TimerEvent: {}
+[15.584406] (-) TimerEvent: {}
+[15.599198] (action_doa) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_doa/libaction_doa__python.so\x1b[0m\n'}
+[15.684686] (-) TimerEvent: {}
+[15.737554] (action_doa) StdoutLine: {'line': b'[ 80%] Built target action_doa__python\n'}
+[15.768227] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[15.770968] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[15.771279] (action_doa) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target action_doa__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[15.784778] (-) TimerEvent: {}
+[15.823240] (action_doa) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/action_doa/_action_doa_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.835227] (action_doa) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/action_doa/_action_doa_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[15.846868] (action_doa) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/action_doa__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/action_doa/_action_doa_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[15.884957] (-) TimerEvent: {}
+[15.985853] (-) TimerEvent: {}
+[16.086761] (-) TimerEvent: {}
+[16.135617] (action_doa) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_doa/action_doa_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.186929] (-) TimerEvent: {}
+[16.218886] (action_doa) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/action_doa/action_doa_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.236986] (action_doa) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/action_doa/action_doa_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.253496] (action_doa) StdoutLine: {'line': b'[100%] Built target action_doa__rosidl_typesupport_c__pyext\n'}
+[16.287132] (-) TimerEvent: {}
+[16.337783] (action_doa) StdoutLine: {'line': b'[100%] Built target action_doa__rosidl_typesupport_introspection_c__pyext\n'}
+[16.387389] (-) TimerEvent: {}
+[16.439846] (action_doa) StdoutLine: {'line': b'[100%] Built target action_doa__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.474795] (action_doa) CommandEnded: {'returncode': 0}
+[16.487739] (-) TimerEvent: {}
+[16.588643] (-) TimerEvent: {}
+[16.598295] (action_doa) JobProgress: {'identifier': 'action_doa', 'progress': 'install'}
+[16.636712] (action_doa) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/eragond/Documents/Robotica/DOA/build/action_doa'], 'cwd': '/home/eragond/Documents/Robotica/DOA/build/action_doa', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'eragond'), ('LC_TIME', 'es_MX.UTF-8'), ('SSH_AGENT_PID', '1930'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/eragond'), ('OLDPWD', '/home/eragond/Documents/Robotica/DOAActionService'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/guake.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_MX.UTF-8'), ('MANAGERPID', '1746'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2399'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'eragond'), ('JOURNAL_STREAM', '8:47914'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'eragond'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/eragond/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/DanLap:@/tmp/.ICE-unix/1969,unix/DanLap:/tmp/.ICE-unix/1969'), ('INVOCATION_ID', 'e04a3701a6ca45aabe1f5572146948f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_MX.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_MX.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_MX.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_MX.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_MX.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/eragond/Documents/Robotica/DOA/build/action_doa'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/doa/lib/python3.8/site-packages:/home/eragond/Documents/Robotica/DOAActionService/install/DOA/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_MX.UTF-8'), ('LC_PAPER', 'es_MX.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/eragond/Documents/Robotica/DOAActionService/install/action_doa:/home/eragond/Documents/Robotica/DOAActionService/install/doa:/home/eragond/Documents/Robotica/DOAActionService/install/DOA:/opt/ros/foxy')]), 'shell': False}
+[16.663848] (action_doa) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.664558] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/ament_index/resource_index/rosidl_interfaces/action_doa\n'}
+[16.665068] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa\n'}
+[16.665552] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action\n'}
+[16.665835] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail\n'}
+[16.666131] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__functions.c\n'}
+[16.666533] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__struct.h\n'}
+[16.666940] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__functions.h\n'}
+[16.667344] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__type_support.h\n'}
+[16.667809] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/do_aaction.h\n'}
+[16.668161] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg\n'}
+[16.668452] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.668875] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/library_path.sh\n'}
+[16.669190] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/library_path.dsv\n'}
+[16.669587] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_generator_c.so\n'}
+[16.670187] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_generator_c.so" to ""\n'}
+[16.670602] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa\n'}
+[16.671110] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action\n'}
+[16.671394] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail\n'}
+[16.671696] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_fastrtps_c.h\n'}
+[16.672061] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg\n'}
+[16.672334] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.672640] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_c.so\n'}
+[16.673144] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.673457] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa\n'}
+[16.673872] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action\n'}
+[16.674081] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail\n'}
+[16.674310] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/dds_fastrtps\n'}
+[16.674535] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.674761] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg\n'}
+[16.674981] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.675304] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.675627] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.675955] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa\n'}
+[16.676325] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action\n'}
+[16.676572] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail\n'}
+[16.676917] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__type_support.c\n'}
+[16.677223] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_introspection_c.h\n'}
+[16.677454] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg\n'}
+[16.677678] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.677985] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_c.so\n'}
+[16.678402] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.678698] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_c.so\n'}
+[16.679768] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_c.so" to ""\n'}
+[16.680338] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa\n'}
+[16.680606] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action\n'}
+[16.680846] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail\n'}
+[16.681076] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__struct.hpp\n'}
+[16.681392] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__builder.hpp\n'}
+[16.681856] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__traits.hpp\n'}
+[16.682098] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/do_aaction.hpp\n'}
+[16.682352] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa\n'}
+[16.682598] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action\n'}
+[16.682849] (action_doa) StdoutLine: {'line': b'-- Up-to-date: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail\n'}
+[16.683096] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__type_support.cpp\n'}
+[16.683434] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/include/action_doa/action/detail/do_aaction__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.683777] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_cpp.so\n'}
+[16.684078] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.684411] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_cpp.so\n'}
+[16.685391] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__rosidl_typesupport_cpp.so" to ""\n'}
+[16.685839] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/pythonpath.sh\n'}
+[16.686187] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/pythonpath.dsv\n'}
+[16.686523] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/__init__.py\n'}
+[16.688810] (-) TimerEvent: {}
+[16.773242] (action_doa) StdoutLine: {'line': b"Compiling '/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/__init__.py'...\n"}
+[16.785462] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action\n'}
+[16.785877] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action/_do_aaction_s.c\n'}
+[16.786174] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action/__init__.py\n'}
+[16.786480] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action/_do_aaction.py\n'}
+[16.787794] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.788911] (-) TimerEvent: {}
+[16.789410] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[16.790081] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.791750] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[16.792275] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[16.793989] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/python3.8/site-packages/action_doa/action_doa_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[16.794358] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__python.so\n'}
+[16.795470] (action_doa) StdoutLine: {'line': b'-- Set runtime path of "/home/eragond/Documents/Robotica/DOA/install/action_doa/lib/libaction_doa__python.so" to ""\n'}
+[16.795911] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/action/DOAaction.idl\n'}
+[16.796332] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/action/DOAaction.action\n'}
+[16.796788] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/ament_index/resource_index/package_run_dependencies/action_doa\n'}
+[16.797658] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/ament_index/resource_index/parent_prefix_path/action_doa\n'}
+[16.798088] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/ament_prefix_path.sh\n'}
+[16.798505] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/ament_prefix_path.dsv\n'}
+[16.798926] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/path.sh\n'}
+[16.799852] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/environment/path.dsv\n'}
+[16.800418] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/local_setup.bash\n'}
+[16.800785] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/local_setup.sh\n'}
+[16.801147] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/local_setup.zsh\n'}
+[16.801559] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/local_setup.dsv\n'}
+[16.801919] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/package.dsv\n'}
+[16.802273] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/ament_index/resource_index/packages/action_doa\n'}
+[16.802693] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_generator_cExport.cmake\n'}
+[16.803064] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.803437] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.803817] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.804202] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cExport.cmake\n'}
+[16.804624] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.805049] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_generator_cppExport.cmake\n'}
+[16.805535] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.805880] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.806319] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cppExport.cmake\n'}
+[16.806702] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doa__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.807057] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/rosidl_cmake-extras.cmake\n'}
+[16.807404] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.807766] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.808124] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.808473] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.808864] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.809206] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.809557] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doaConfig.cmake\n'}
+[16.809872] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/cmake/action_doaConfig-version.cmake\n'}
+[16.810186] (action_doa) StdoutLine: {'line': b'-- Installing: /home/eragond/Documents/Robotica/DOA/install/action_doa/share/action_doa/package.xml\n'}
+[16.820235] (action_doa) CommandEnded: {'returncode': 0}
+[16.889323] (-) TimerEvent: {}
+[16.990517] (-) TimerEvent: {}
+[17.048089] (action_doa) JobEnded: {'identifier': 'action_doa', 'rc': 0}
+[17.050458] (-) EventReactorShutdown: {}

@@ -5,6 +5,7 @@ from action_doa.action import DOAaction
 import rclpy
 from rclpy.action import ActionServer
 from rclpy.node import Node
+from geometry_msgs.msg import Twist
 
 from .tuning import Tuning
 import usb.core
@@ -28,22 +29,39 @@ class DOAActionServer(Node):
         self.get_logger().info('Ejecutando meta...')
 
         feedback_msg = DOAaction.Feedback()
-        feedback_msg.partial_sequence = [0, 1]
 
-        for i in range(1, goal_handle.request.order):
-            msg = "DOA: "+str(self.Mic_tuning.direction) + " VA: "+ str(self.Mic_tuning.is_voice())
+        encontrado = False
+        nodo = rclpy.create_node("velocista")
+        publisher = nodo.create_publisher(Twist, '/commands/velocity', 10)
 
-            feedback_msg.partial_sequence.append(
-                feedback_msg.partial_sequence[i] + feedback_msg.partial_sequence[i-1])
-            self.get_logger().info('Feedbacko: {0}'.format(feedback_msg.partial_sequence))
+        move_cmd = Twist()
+
+        while(not encontrado):
+            direccion = self.Mic_tuning.direction
+            msg = "DOA: "+str(direccion) + " VA: "+ str(self.Mic_tuning.is_voice())
             self.get_logger().info('Feedbacko: {0}'.format(msg))
+            feedback_msg.feedback = msg
             goal_handle.publish_feedback(feedback_msg)
-            time.sleep(1)
+            
+            if(direccion < 10 and direccion > 0):
+                encontrado = True
+            
+            # Izquierda
+            if(direccion > 10 and direccion < 180):
+                move_cmd.angular.z = -0.3
+            # Derecha
+            if(direccion > 180 and direccion < 360):
+                move_cmd.angular.z = 0.3
+            publisher.publish(move_cmd)
+            
+
+            # time.sleep(0.5)
+
 
         goal_handle.succeed()
 
         result = DOAaction.Result()
-        result.sequence = feedback_msg.partial_sequence
+        result.resultado = "Terminado"
         return result
 
 

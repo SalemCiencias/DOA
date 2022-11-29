@@ -20,7 +20,7 @@ extern "C"
 // Struct defined in action/DOAaction in the package action_doa.
 typedef struct action_doa__action__DOAaction_Goal
 {
-  int32_t order;
+  int32_t orden;
 } action_doa__action__DOAaction_Goal;
 
 // Struct for a sequence of action_doa__action__DOAaction_Goal.
@@ -37,13 +37,13 @@ typedef struct action_doa__action__DOAaction_Goal__Sequence
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'sequence'
-#include "rosidl_runtime_c/primitives_sequence.h"
+// Member 'resultado'
+#include "rosidl_runtime_c/string.h"
 
 // Struct defined in action/DOAaction in the package action_doa.
 typedef struct action_doa__action__DOAaction_Result
 {
-  rosidl_runtime_c__int32__Sequence sequence;
+  rosidl_runtime_c__String resultado;
 } action_doa__action__DOAaction_Result;
 
 // Struct for a sequence of action_doa__action__DOAaction_Result.
@@ -60,14 +60,14 @@ typedef struct action_doa__action__DOAaction_Result__Sequence
 // Constants defined in the message
 
 // Include directives for member types
-// Member 'partial_sequence'
+// Member 'feedback'
 // already included above
-// #include "rosidl_runtime_c/primitives_sequence.h"
+// #include "rosidl_runtime_c/string.h"
 
 // Struct defined in action/DOAaction in the package action_doa.
 typedef struct action_doa__action__DOAaction_Feedback
 {
-  rosidl_runtime_c__int32__Sequence partial_sequence;
+  rosidl_runtime_c__String feedback;
 } action_doa__action__DOAaction_Feedback;
 
 // Struct for a sequence of action_doa__action__DOAaction_Feedback.
