@@ -4,16 +4,15 @@ import rclpy
 from rclpy.action import ActionClient
 from rclpy.node import Node
 
-
 class DOAActionClient(Node):
 
     def __init__(self):
         super().__init__('doa_action_client')
         self._action_client = ActionClient(self, DOAaction, 'doaaction')
 
-    def send_goal(self, order):
+    def send_goal(self, orden):
         goal_msg = DOAaction.Goal()
-        goal_msg.order = order
+        goal_msg.orden = orden
 
         self._action_client.wait_for_server()
 
@@ -37,13 +36,13 @@ class DOAActionClient(Node):
         self._get_result_future.add_done_callback(self.get_result_callback)
 
     def get_result_callback(self, future):
-        result = future.result().result
-        self.get_logger().info('Result: {0}'.format(result.sequence))
+        result = future.result()
+        self.get_logger().info('Result: {0}'.format(result))
         rclpy.shutdown()
 
     def feedback_callback(self, feedback_msg):
         feedback = feedback_msg.feedback
-        self.get_logger().info('Received feedback: {0}'.format(feedback.partial_sequence))
+        self.get_logger().info('Received feedback: {0}'.format(feedback.feedback))
 
 
 def main(args=None):
@@ -51,7 +50,7 @@ def main(args=None):
 
     action_client = DOAActionClient()
 
-    action_client.send_goal(10)
+    action_client.send_goal(0)
 
     rclpy.spin(action_client)
 
