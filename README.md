@@ -8,6 +8,11 @@ Primero hacer source de ros2
 ```bash
 source /opt/ros/foxy/setup.bash 
  ``` 
+Generar archivo de permisos para el microfono
+```bash
+sudo cp -f config/60-respeaker.rules /etc/udev/rules.d/60-respeaker.rules
+sudo systemctl restart udev
+```
 Compilar 
 ```bash
  colcon build
